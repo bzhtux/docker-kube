@@ -3,6 +3,7 @@ FROM alpine
 LABEL maintainer="Yannick Foeillet <bzhtux@gmail.com>"
 
 RUN apk add --no-cache \
+    bash \
     curl \
     jq
 
