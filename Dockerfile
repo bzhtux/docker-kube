@@ -10,5 +10,5 @@ RUN curl -L "https://storage.googleapis.com/kubernetes-release/release/`curl -s 
     && curl -L "https://get.helm.sh/helm-v2.15.0-linux-amd64.tar.gz" -o /tmp/helm.tgz \
     && tar xvf /tmp/helm.tgz -C /tmp \
     && mv /tmp/linux-amd64/helm /usr/local/bin/ \
-    && mv /tmp/linux-amd64/tiller /usr/local/bin/
+    && mv /tmp/linux-amd64/tiller /usr/local/bin/ \
     && rm -rf /tmp/linux-amd64 
